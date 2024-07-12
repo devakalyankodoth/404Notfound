@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 115vh;
+  background-color: #ffffff;
+}
+
+.img {
+  margin-bottom: 5px;
+  width: 100%;
+  max-width: 410px; 
+  height: auto; 
+  margin-left: 0; 
+}
+
+.not-found h2 {
+  font-size: 4vw;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0; 
+  padding: 0.5em; 
+  margin-bottom: -55px;
+}
+
+.para {
+  text-align: center;
+  padding: 1em; 
+}
+
+.para p {
+  font-size: 1.5em; 
+  color: #565454;
+}
+
+.go {
+  text-align: left;
+  margin-top: 1em; 
+}
+
+.go a {
+  display: inline-block; 
+  color: #565454;
+  padding: 10px 20px;
+  font-size: 1.2em; 
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  
+}
+
+.go a:hover {
+  background-color: #5a53e0;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .img {
+    margin-left: auto; 
+  }
+
+  .not-found h2 {
+    font-size: 3em; 
+    text-align: left; 
+    margin-right: 20%;
+  }
+
+  .para p {
+    text-align: left;
+    margin-right: 20%; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .img {
+    width: 410px; 
+    height: 350px;
+    margin-left: 900px; 
+  }
+
+  .not-found h2 {
+    margin-right: 720px; 
+  }
+
+  .para p {
+    margin-right: 580px; 
+    margin-top: -260px; 
+  }
+}
